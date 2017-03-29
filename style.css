@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Pacifico|VT323');
+
+
+body {
+  background-color:black;
+}
+
+.large-container {
+  position: relative;
+  left: 35%;
+  top: 20px;
+  //background-color: wheat;
+  width: 400px;
+  height: 400px;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 50px;
+  color: white;
+}
+
+.sim-button {
+  width: 33.1%;
+  height: 33.1%;
+
+  //border-style: solid;
+  //border-width: 1px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 50%;
+}
+
+#green {
+  background-color: #01FF16;
+  left: 33.3%;
+  display: block;
+}
+
+
+
+#red{
+  background-color: #FF0000;
+  display: inline-block;
+}
+
+
+#yellow {
+  left: 33.3%;
+  background-color: yellow;
+  display: inline-block;
+}
+
+#blue {
+  left: 33.3%;
+  background-color: blue;
+  
+}
+
+#control {
+  position: relative;
+  left: 5%;
+  top: 70px;
+}
+
+.myButton {
+  border-style: none;
+  font-size: 25px;
+  margin-left: 30px;
+  padding: 20px;
+  
+  
+  //font-family: 'VT323', monospace;
+
+}
+
+.myButton:hover {
+  background-color: #60FFF2;
+}
+
+.button-on {
+   background-color: #60FFF2;
+}
+
+#message {
+  color: red;
+  font-size: 35px;
+  font-family: 'VT323', monospace;
+  position: relative;
+  left: 35%;
+  bottom: 73%;
+  text-align: center;
+  width: 120px;
+  background-color: black;
+}
